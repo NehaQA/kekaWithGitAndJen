@@ -16,7 +16,7 @@ describe('login Test Cases', () => {
         cy.get(".btn").click()
         cy.get('#password').type('Password@123')
        cy.xpath("//button[normalize-space()='Login']").click()
-        cy.wait(1500)
+        cy.wait(5000)
         cy.contains("Crownstack Technologies Pvt Ltd").should('be.visible')
     })
     
