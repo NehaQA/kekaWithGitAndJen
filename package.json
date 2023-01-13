@@ -1,0 +1,16 @@
+{
+  "name": "kekawithgitandjen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modeules\\.bin\\cypress run --config pageLoadTimeout=1000",
+    "runtest": "npm run test --"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.3.0"
+  }
+}
